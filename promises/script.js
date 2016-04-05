@@ -24,7 +24,7 @@ function testPromise() {
     function (val) {
       log.insertAdjacentHTML('beforeEnd', val + ') Done alert (запуск Async code)');
     }
-  )
+  );
 
   log.insertAdjacentHTML('beforeEnd', thisPromiseCount + ') Create alert (Sync code)');
 }
